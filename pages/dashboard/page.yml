@@ -1,6 +1,8 @@
 id: '1'
-name: Home
-url: home
+name: Dashboard
+url: dashboard
+roleIds: []
+disableInMenu: false
 index: 0
 slots:
   - id: '1'
