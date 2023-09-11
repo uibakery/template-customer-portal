@@ -1,0 +1,33 @@
+id: '16944233009120.04087075327738643'
+name: mock_data
+nameConfigured: true
+steps:
+  - id: '16944233009110.5264421585423422'
+    type: draft
+    name: newStep
+    params: []
+    level: 0
+    fallthroughError: false
+    isChanged: false
+singleStep: true
+mode: manual
+modeConfigured: false
+folder: true
+parentId: null
+config:
+  shouldConfirm: false
+  confirmMessage: Are you sure you'd like to proceed with "{{actions.mock_data.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.mock_data.name}}" successfully executed
+  successToastDuration: '3000'
+  successToastHideByClick: false
+  showErrorToast: true
+  errorToast: Action "{{actions.mock_data.name}}" has failed
+  errorToastDuration: '3000'
+  errorToastHideByClick: false
+  delay: '0'
+  runWhenFirstReferenced: true
+  preserveStateOnPageChange: true
+assigned: false
+selected: false
+index: 0

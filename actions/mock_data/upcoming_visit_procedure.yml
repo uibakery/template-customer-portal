@@ -1,0 +1,46 @@
+id: '16944302741920.4521412273044587'
+name: upcoming_visit_procedure
+nameConfigured: true
+steps:
+  - id: '16944302741920.3040566420326969'
+    type: customAsyncCode
+    name: code
+    params:
+      - type: asyncCode
+        value: |-
+          return {
+            visit_type: 'Procedure',
+            procedure_name: 'Magnetic Resonance Angiography (MRA)',
+            price: '$600',
+            date_time: '2022-12-28 03:30 PM',
+          };
+        valueType: interpolatedValue
+        interpolationType: code
+    level: 0
+    fallthroughError: false
+    isChanged: true
+singleStep: false
+mode: manual
+modeConfigured: false
+folder: false
+parentId: '16944233009120.04087075327738643'
+config:
+  shouldConfirm: false
+  confirmMessage: >-
+    Are you sure you'd like to proceed with
+    "{{actions.upcoming_visit_doctor.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.upcoming_visit_doctor.name}}" successfully executed
+  successToastDuration: '3000'
+  successToastHideByClick: false
+  showErrorToast: true
+  errorToast: Action "{{actions.upcoming_visit_doctor.name}}" has failed
+  errorToastDuration: '3000'
+  errorToastHideByClick: false
+  delay: '0'
+  runWhenFirstReferenced: true
+  preserveStateOnPageChange: true
+assigned: false
+selected: true
+configured: true
+index: 2
