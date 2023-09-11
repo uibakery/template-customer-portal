@@ -1,0 +1,41 @@
+id: '16944306665730.14161236395081134'
+name: showScheduleAppointmentPopup
+nameConfigured: true
+steps:
+  - id: '16944306748540.9153140318480542'
+    type: customAsyncCode
+    name: newStep
+    params:
+      - type: asyncCode
+        value: '{{ui.upcomingVisitDoctorPopupform.open()}}'
+        valueType: interpolatedValue
+        interpolationType: code
+    level: 0
+    fallthroughError: false
+    isChanged: true
+    nameConfigured: true
+singleStep: true
+mode: manual
+modeConfigured: true
+parentPageId: '1'
+folder: false
+config:
+  shouldConfirm: false
+  confirmMessage: >-
+    Are you sure you'd like to proceed with
+    "{{actions.showScheduleAppointmentPopup.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.showScheduleAppointmentPopup.name}}" successfully executed
+  successToastDuration: '3000'
+  successToastHideByClick: false
+  showErrorToast: true
+  errorToast: Action "{{actions.showScheduleAppointmentPopup.name}}" has failed
+  errorToastDuration: '3000'
+  errorToastHideByClick: false
+  delay: '0'
+  runWhenFirstReferenced: true
+  preserveStateOnPageChange: false
+assigned: false
+selected: true
+configured: true
+index: 5

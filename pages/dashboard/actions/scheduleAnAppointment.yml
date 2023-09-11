@@ -1,0 +1,81 @@
+id: '16944386173020.24803738941690545'
+name: scheduleAnAppointment
+nameConfigured: true
+steps:
+  - id: '16944386487840.4656581274982925'
+    type: customAsyncCode
+    name: code
+    params:
+      - type: asyncCode
+        value: |-
+          return new Promise(r => {
+            setTimeout(() => {
+              r();
+            }, 2000);
+          })
+        valueType: interpolatedValue
+        interpolationType: code
+    level: 0
+    fallthroughError: false
+    isChanged: true
+  - id: '16944386453240.6114502016337022'
+    type: showToast
+    name: notification2
+    params:
+      - type: message
+        value: Appointment scheduled
+        valueType: interpolatedValue
+      - type: type
+        value: success
+        valueType: string
+      - type: icon
+        value: checkmark-circle-2
+        valueType: string
+      - type: duration
+        value: '3000'
+        valueType: interpolatedValue
+      - type: position
+        value: top-end
+        valueType: string
+      - type: hideOnClick
+        value: false
+        valueType: custom
+    level: 0
+    fallthroughError: false
+    isChanged: true
+  - id: '16944387636020.23936092122188057'
+    type: customAsyncCode
+    name: code2
+    params:
+      - type: asyncCode
+        value: return {{ui.upcomingVisitDoctorPopupform.close()}};
+        valueType: interpolatedValue
+        interpolationType: code
+    level: 0
+    fallthroughError: false
+    isChanged: true
+singleStep: true
+mode: manual
+modeConfigured: true
+parentPageId: '1'
+folder: false
+config:
+  shouldConfirm: false
+  confirmMessage: >-
+    Are you sure you'd like to proceed with
+    "{{actions.scheduleAnAppointment.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.scheduleAnAppointment.name}}" successfully executed
+  successToastDuration: '3000'
+  successToastHideByClick: false
+  showErrorToast: true
+  errorToast: Action "{{actions.scheduleAnAppointment.name}}" has failed
+  errorToastDuration: '3000'
+  errorToastHideByClick: false
+  delay: '0'
+  runWhenFirstReferenced: true
+  preserveStateOnPageChange: false
+assigned: true
+selected: true
+configured: false
+index: 8

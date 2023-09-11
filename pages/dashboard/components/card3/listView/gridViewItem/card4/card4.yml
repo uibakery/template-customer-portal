@@ -7,7 +7,7 @@ styles:
       h: 40
     backgroundColor:
       value: default
-      dataValue: '{{index === state.selectedRecord ? ''#E8EEFB'' : ''default''}}'
+      dataValue: '{{item.id === state.selectedRecord ? ''#E8EEFB'' : ''default''}}'
       withData: true
 properties:
   name: card4
@@ -24,7 +24,7 @@ index: 0
 actions:
   cardClick:
     - action: '16944353120800.12726644309556723'
-      paramCode: '{{index}}'
+      paramCode: '{{item.id}}'
       blockPageLoad: false
       index: 0
   init: []
@@ -36,6 +36,9 @@ slots:
   - id: '16944352687880.7512084211635153'
     name: body
     children:
+      - doctorVisitDetails/doctorVisitDetails.yml
+      - procedureVisitDetails/procedureVisitDetails.yml
+      - testVisitDetails/testVisitDetails.yml
       - text12.yml
       - text21.yml
       - tags.yml

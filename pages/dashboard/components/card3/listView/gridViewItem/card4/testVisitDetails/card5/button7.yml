@@ -1,0 +1,35 @@
+id: '16944388056430.9776191413705693'
+definitionId: button
+parentSlotId: '16944365048010.24922726795918382'
+styles:
+  xl:
+    gridItem:
+      x: 19
+      y: 0
+      w: 5
+      h: 10
+  xs:
+    gridItem:
+      x: 0
+      y: 6
+      w: 24
+      h: 10
+properties:
+  name: button7
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  text: Schedule appointment
+  status:
+    value: success
+    dataValue: primary
+    withData: false
+actions:
+  buttonClick:
+    - action: '16944306665730.14161236395081134'
+      paramCode: ''
+      blockPageLoad: false
+      index: 0
+  init: []
+index: 1
+slots: []
