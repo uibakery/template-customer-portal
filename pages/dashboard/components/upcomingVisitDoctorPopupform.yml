@@ -169,3 +169,18 @@ slots:
         parentSlotId: '16944387432560.641671556419589'
         index: 4
         slots: []
+      - id: '16944392829230.8304453410139081'
+        definitionId: atomicCurrency
+        parentSlotId: '16944387432560.641671556419589'
+        styles: {}
+        properties:
+          name: atomicCurrency
+          prop: price
+          __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+            - xl
+            - xs
+          forceView: true
+          mappedValue: '{{state.nextAppointmentPrice}}'
+          __UIBAKERY__SHOW__CONDITION__CODE__: '{{parent.value.date_time}}'
+        index: 5
+        slots: []

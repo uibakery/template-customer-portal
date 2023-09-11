@@ -4,7 +4,7 @@ nameConfigured: true
 steps:
   - id: '16944306748540.9153140318480542'
     type: customAsyncCode
-    name: newStep
+    name: showPopup
     params:
       - type: asyncCode
         value: '{{ui.upcomingVisitDoctorPopupform.open()}}'
@@ -14,6 +14,23 @@ steps:
     fallthroughError: false
     isChanged: true
     nameConfigured: true
+  - id: '16944394301030.15996849910392807'
+    type: putInStore
+    name: save
+    params:
+      - type: name
+        value: '16944394432840.4095901036571723'
+        valueType: string
+      - type: value
+        value: '{{Math.floor(Math.random() * (600 - 50 + 1)) + 50}}'
+        valueType: interpolatedValue
+        interpolationType: code
+      - type: producible
+        value: true
+        valueType: custom
+    level: 0
+    fallthroughError: false
+    isChanged: true
 singleStep: true
 mode: manual
 modeConfigured: true

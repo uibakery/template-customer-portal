@@ -15,7 +15,7 @@ steps:
             diagnosis: 'Childhood Immunization',
             prescription: 'Administered vaccines.',
             price: '$80',
-            date_time: '2023-01-05 11:45 AM',
+            date_time: moment().add(1, 'days'),
           };
         valueType: interpolatedValue
         interpolationType: code
