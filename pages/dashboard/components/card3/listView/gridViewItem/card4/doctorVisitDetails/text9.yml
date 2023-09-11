@@ -6,7 +6,7 @@ styles:
     gridItem:
       x: 1
       y: 0
-      w: 22
+      w: 16
       h: 10
     fontSize:
       customValue: 14

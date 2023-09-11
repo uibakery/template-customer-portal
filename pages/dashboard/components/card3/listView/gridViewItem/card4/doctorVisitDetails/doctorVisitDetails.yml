@@ -31,6 +31,7 @@ slots:
     children:
       - text9.yml
       - text10.yml
+      - button8.yml
   - id: '16944322613500.35350611298818113'
     name: body
     children:

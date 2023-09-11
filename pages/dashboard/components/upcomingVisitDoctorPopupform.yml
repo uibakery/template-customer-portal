@@ -46,8 +46,8 @@ properties:
   title: Schedule a new appointment
   buttonStatus:
     value: success
-    dataValue: primary
-    withData: false
+    dataValue: '#1D3B93'
+    withData: true
   buttonText: Schedule appointment
   columns: '1'
   closeOnSuccess: true
@@ -62,8 +62,8 @@ properties:
   customButtonText: Schedule appointment
   customButtonStatus:
     value: success
-    dataValue: basic
-    withData: false
+    dataValue: '#1D3B93'
+    withData: true
   __UIBAKERY__SHOW__CONDITION__CODE__: 'false'
 actions:
   customButtonClick:
@@ -133,7 +133,7 @@ slots:
             withData: true
           __UIBAKERY__SHOW__CONDITION__CODE__: '{{ui.upcomingVisitDoctorPopupform.value.visit_type === ''Procedure''}}'
         parentSlotId: '16944387432560.641671556419589'
-        index: 2
+        index: 3
         slots: []
       - id: '16944387432560.8628255967285541'
         definitionId: atomicSelect
@@ -152,7 +152,7 @@ slots:
             withData: true
           __UIBAKERY__SHOW__CONDITION__CODE__: '{{ui.upcomingVisitDoctorPopupform.value.visit_type === ''Test''}}'
         parentSlotId: '16944387432560.641671556419589'
-        index: 3
+        index: 4
         slots: []
       - id: '16944387432560.703182212161283'
         definitionId: atomicDateTime
@@ -167,7 +167,7 @@ slots:
             - xs
           title: Visit date
         parentSlotId: '16944387432560.641671556419589'
-        index: 4
+        index: 5
         slots: []
       - id: '16944392829230.8304453410139081'
         definitionId: atomicCurrency
@@ -182,5 +182,22 @@ slots:
           forceView: true
           mappedValue: '{{state.nextAppointmentPrice}}'
           __UIBAKERY__SHOW__CONDITION__CODE__: '{{parent.value.date_time}}'
-        index: 5
+        index: 6
+        slots: []
+      - id: '16944402648820.08500522130995614'
+        definitionId: atomicFile
+        parentSlotId: '16944387432560.641671556419589'
+        styles: {}
+        properties:
+          name: atomicFile
+          title: Attach additional files for doctor
+          __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+            - xl
+            - xs
+          prop: documents
+          __UIBAKERY__SHOW__CONDITION__CODE__: '{{ui.upcomingVisitDoctorPopupform.value.visit_type === ''Doctor''}}'
+          viewTooltip: >-
+            Attach additional files for doctor if have any (pictures, extracts,
+            recipes, etc.)
+        index: 2
         slots: []
