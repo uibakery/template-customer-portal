@@ -166,6 +166,9 @@ slots:
             - xl
             - xs
           title: Visit date
+          timeStep:
+            active: true
+            step: '30'
         parentSlotId: '16944387432560.641671556419589'
         index: 5
         slots: []

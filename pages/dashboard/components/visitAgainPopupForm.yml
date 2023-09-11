@@ -89,6 +89,16 @@ slots:
             - xl
             - xs
           title: Visit date
+          withSeconds: false
+          twelveHoursFormat: false
+          timeStep:
+            active: true
+            step: '30'
+          disabled:
+            value: false
+            dataValue: 'false'
+            withData: false
+          mappedValue: ''
         parentSlotId: '16944397929960.3805913119239124'
         index: 0
         slots: []
