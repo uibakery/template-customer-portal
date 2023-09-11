@@ -25,4 +25,8 @@ slots:
           - id: '2'
             name: content
             bindings: {}
-            children: []
+            children:
+              - components/card/card.yml
+              - components/medicalHistoryRecordsTable.yml
+              - components/card2/card2.yml
+              - components/card3/card3.yml

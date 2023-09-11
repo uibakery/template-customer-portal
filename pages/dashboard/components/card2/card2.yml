@@ -1,0 +1,48 @@
+id: '16944300780680.6119592884034317'
+definitionId: card
+parentSlotId: '2'
+styles:
+  xl:
+    gridItem:
+      x: 7
+      y: 0
+      w: 17
+      h: 46
+    status:
+      value: warning-light
+      dataValue: default
+      withData: false
+  xs:
+    gridItem:
+      x: 0
+      y: 160
+      w: 24
+      h: 80
+properties:
+  name: card2
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  showHeader: true
+actions: {}
+index: 2
+slots:
+  - id: '16944300780680.8029684786490712'
+    name: header
+    children:
+      - text4.yml
+      - upcomingVisitDoctorPopupform.yml
+  - id: '16944300780680.25996338718393397'
+    name: body
+    children:
+      - text5.yml
+      - button.yml
+      - text6.yml
+      - text7.yml
+      - text8.yml
+      - button4.yml
+      - button3.yml
+      - button5.yml
+  - id: '16944300780680.09103072621440234'
+    name: footer
+    children: []

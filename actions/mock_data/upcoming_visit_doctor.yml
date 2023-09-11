@@ -1,0 +1,49 @@
+id: '16944299094820.3062803050147527'
+name: upcoming_visit_doctor
+nameConfigured: true
+steps:
+  - id: '16944299185300.40393460393209546'
+    type: customAsyncCode
+    name: code
+    params:
+      - type: asyncCode
+        value: |-
+          return {
+            visit_type: 'Doctor',
+            doctor_name: 'Dr. Amanda Rodriguez',
+            specialty: 'Pediatrician',
+            diagnosis: 'Childhood Immunization',
+            prescription: 'Administered vaccines.',
+            price: '$80',
+            date_time: '2023-01-05 11:45 AM',
+          };
+        valueType: interpolatedValue
+        interpolationType: code
+    level: 0
+    fallthroughError: false
+    isChanged: true
+singleStep: false
+mode: manual
+modeConfigured: false
+folder: false
+parentId: '16944233009120.04087075327738643'
+config:
+  shouldConfirm: false
+  confirmMessage: >-
+    Are you sure you'd like to proceed with
+    "{{actions.upcoming_visit_doctor.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.upcoming_visit_doctor.name}}" successfully executed
+  successToastDuration: '3000'
+  successToastHideByClick: false
+  showErrorToast: true
+  errorToast: Action "{{actions.upcoming_visit_doctor.name}}" has failed
+  errorToastDuration: '3000'
+  errorToastHideByClick: false
+  delay: '0'
+  runWhenFirstReferenced: true
+  preserveStateOnPageChange: true
+assigned: false
+selected: true
+configured: true
+index: 1
