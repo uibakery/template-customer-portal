@@ -1,9 +1,9 @@
 storeItemList:
   - id: '16944353325830.5077968055672661'
     name: selectedRecord
-    value: 0
+    value: 1
     valueType: number
-    initialValue: 0
+    initialValue: 1
     version: 1
   - id: '16944394432840.4095901036571723'
     name: nextAppointmentPrice

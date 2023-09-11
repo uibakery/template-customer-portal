@@ -33,6 +33,10 @@ properties:
     value: calendar-outline
     dataValue: star-outline
     withData: false
+  showLoading:
+    value: false
+    dataValue: 'false'
+    withData: false
 actions:
   buttonClick:
     - action: '16944306665730.14161236395081134'

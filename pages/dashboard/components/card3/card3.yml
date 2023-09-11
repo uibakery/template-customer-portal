@@ -27,6 +27,7 @@ slots:
     name: header
     children:
       - heading.yml
+      - visitTypeFilter.yml
   - id: '16944352664330.9991921800764982'
     name: body
     children:
