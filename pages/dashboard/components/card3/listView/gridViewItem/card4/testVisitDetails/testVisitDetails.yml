@@ -47,6 +47,8 @@ slots:
       - card5/card5.yml
       - text33.yml
       - text11.yml
+      - text36.yml
+      - text37.yml
   - id: '16944358165500.52277633390057'
     name: footer
     children: []
