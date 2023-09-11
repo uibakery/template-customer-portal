@@ -14,4 +14,4 @@
   <a href="https://roadmap.uibakery.io?utm_source=github">Roadmap</a>
 </h3>
 
-<a href="https://cloud.uibakery.io/auth/register/?utm_source=github"><img src="https://github.com/uibakery/self-hosted/raw/main/assets/hero.png" width="100%" alt="UI Bakery - Internal tools and workflow automations"></a>
+<a href="https://cloud.uibakery.io/auth/register/?utm_source=github"><img src="/example.png" width="100%" alt="UI Bakery - Internal tools and workflow automations"></a>
