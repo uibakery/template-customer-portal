@@ -1,0 +1,28 @@
+id: '16944358165500.8917435013389239'
+definitionId: text
+styles:
+  xl:
+    gridItem:
+      x: 6
+      y: 16
+      w: 18
+      h: 6
+  xs:
+    gridItem:
+      x: 0
+      y: 32
+      w: 24
+      h: 6
+properties:
+  name: text31
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  value: '{{actions.selectedRecord.data.date_time.format(''MMMM Do YYYY, h:mm:ss a'')}}'
+  textStyle:
+    transform: none
+    styles: []
+parentSlotId: '16944358165500.5449253927717319'
+index: 1
+actions: {}
+slots: []

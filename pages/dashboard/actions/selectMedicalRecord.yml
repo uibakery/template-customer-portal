@@ -1,0 +1,71 @@
+id: '16944353120800.12726644309556723'
+name: selectMedicalRecord
+nameConfigured: true
+steps:
+  - id: '16944353197690.7614326123358321'
+    type: putInStore
+    name: save
+    params:
+      - type: name
+        value: '16944353325830.5077968055672661'
+        valueType: string
+      - type: value
+        value: '{{data}}'
+        valueType: interpolatedValue
+        interpolationType: code
+      - type: producible
+        value: true
+        valueType: custom
+    level: 0
+    fallthroughError: false
+    isChanged: true
+  - id: '16944356851000.969430194561685'
+    type: executeAction
+    name: execute
+    params:
+      - type: action
+        value: '16944355371680.9962282457647922'
+        valueType: string
+      - type: isActionsLibraryCall
+        value: false
+        valueType: string
+      - type: customParams
+        value: return {{data}};
+        valueType: string
+      - type: successMapper
+        value: ''
+        valueType: interpolatedValue
+      - type: failureMapper
+        value: ''
+        valueType: interpolatedValue
+      - type: mapperEnabled
+        value: false
+        valueType: custom
+    level: 0
+    fallthroughError: false
+    isChanged: true
+singleStep: true
+mode: manual
+modeConfigured: true
+parentPageId: '1'
+folder: false
+config:
+  shouldConfirm: false
+  confirmMessage: >-
+    Are you sure you'd like to proceed with
+    "{{actions.selectMedicalRecord.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.selectMedicalRecord.name}}" successfully executed
+  successToastDuration: '3000'
+  successToastHideByClick: false
+  showErrorToast: true
+  errorToast: Action "{{actions.selectMedicalRecord.name}}" has failed
+  errorToastDuration: '3000'
+  errorToastHideByClick: false
+  delay: '0'
+  runWhenFirstReferenced: true
+  preserveStateOnPageChange: false
+assigned: true
+selected: true
+configured: true
+index: 6

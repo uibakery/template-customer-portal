@@ -1,0 +1,39 @@
+id: '16944355371680.9962282457647922'
+name: selectedRecord
+nameConfigured: true
+steps:
+  - id: '16944355397330.48412611196482813'
+    type: customAsyncCode
+    name: code
+    params:
+      - type: asyncCode
+        value: return {{actions.medical_history_records.data[state.selectedRecord]}}
+        valueType: interpolatedValue
+        interpolationType: code
+    level: 0
+    fallthroughError: false
+    isChanged: true
+singleStep: false
+mode: auto
+modeConfigured: true
+parentPageId: '1'
+folder: false
+parentId: null
+config:
+  shouldConfirm: false
+  confirmMessage: Are you sure you'd like to proceed with "{{actions.selectedRecord.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.selectedRecord.name}}" successfully executed
+  successToastDuration: '3000'
+  successToastHideByClick: false
+  showErrorToast: true
+  errorToast: Action "{{actions.selectedRecord.name}}" has failed
+  errorToastDuration: '3000'
+  errorToastHideByClick: false
+  delay: '0'
+  runWhenFirstReferenced: true
+  preserveStateOnPageChange: false
+assigned: false
+selected: true
+configured: true
+index: 7

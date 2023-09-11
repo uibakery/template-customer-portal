@@ -1,0 +1,37 @@
+id: '16944360707740.09547025394575082'
+definitionId: tags
+parentSlotId: '16944352687880.7512084211635153'
+styles:
+  xl:
+    gridItem:
+      x: 17
+      y: 0
+      w: 7
+      h: 8
+  xs:
+    gridItem:
+      x: 0
+      y: 24
+      w: 24
+      h: 8
+properties:
+  value:
+    value:
+      - value: active
+        color: success
+        __UIBAKERY__SYSTEM_ID__: '1'
+      - value: not_active
+        color: danger
+        __UIBAKERY__SYSTEM_ID__: '2'
+    dataValue: >-
+      {{item.visit_type === 'Test' ? (item.is_ok ? [{value: `All good`, color:
+      'success'}] : [{value: `Not good`, color: 'danger'}]) : ([])}}
+    withData: true
+  name: tags
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  alignment: right
+actions: {}
+index: 2
+slots: []

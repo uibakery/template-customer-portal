@@ -1,6 +1,5 @@
-id: '16944323620950.29169968302617644'
+id: '16944357020790.960314560253285'
 definitionId: text
-parentSlotId: '16944322613500.25558835414982184'
 styles:
   xl:
     gridItem:
@@ -19,19 +18,16 @@ styles:
       w: 24
       h: 6
 properties:
-  name: text9
+  name: text22
   __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
     - xl
     - xs
-  value: >-
-    {{ui.medicalHistoryRecordsTable.selectedRow.data.visit_type}}
-    **{{ui.medicalHistoryRecordsTable.selectedRow.data.doctor_name ??
-    ui.medicalHistoryRecordsTable.selectedRow.data.test_name ??
-    ui.medicalHistoryRecordsTable.selectedRow.data.procedure_name}}**
+  value: '**{{actions.selectedRecord.data.procedure_name}}**'
   verticalAlignment: middle
   textStyle:
     transform: none
     styles: []
-actions: {}
+parentSlotId: '16944357020790.5490707360906784'
 index: 0
+actions: {}
 slots: []
