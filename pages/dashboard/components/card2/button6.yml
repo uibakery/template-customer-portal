@@ -4,10 +4,11 @@ parentSlotId: '16944300780680.8029684786490712'
 styles:
   xl:
     gridItem:
-      x: 18
+      x: 17
       y: 0
-      w: 6
+      w: 7
       h: 10
+    iconPlacement: left
   xs:
     gridItem:
       x: 0
@@ -22,7 +23,19 @@ properties:
   text: Schedule appointment
   status:
     value: success
-    dataValue: primary
+    dataValue: '#1D3B93'
+    withData: true
+  appearance:
+    value: filled
+    dataValue: filled
+    withData: false
+  icon:
+    value: calendar-outline
+    dataValue: star-outline
+    withData: false
+  showLoading:
+    value: false
+    dataValue: 'false'
     withData: false
 actions:
   buttonClick:

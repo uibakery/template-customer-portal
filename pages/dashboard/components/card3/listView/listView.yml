@@ -15,7 +15,7 @@ styles:
       w: 24
       h: 20
 properties:
-  data: '{{actions.medical_history_records.data}}'
+  data: '{{actions.filtered_medical_history_records.data}}'
   limit: '4'
   name: listView
   __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:

@@ -21,12 +21,13 @@ properties:
     - xs
   heightMode: auto
 actions: {}
-index: 4
+index: 5
 slots:
   - id: '16944352664330.11133088167564376'
     name: header
     children:
       - heading.yml
+      - visitTypeFilter.yml
   - id: '16944352664330.9991921800764982'
     name: body
     children:

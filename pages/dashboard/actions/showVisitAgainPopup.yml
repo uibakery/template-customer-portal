@@ -1,22 +1,22 @@
-id: '16944306665730.14161236395081134'
-name: showScheduleAppointmentPopup
+id: '16944398640310.20674438009889928'
+name: showVisitAgainPopup
 nameConfigured: true
 steps:
-  - id: '16944306748540.9153140318480542'
+  - id: '16944398640300.7098331051836795'
     type: customAsyncCode
     name: showPopup
     params:
       - type: asyncCode
         value: |-
-          {{ui.upcomingVisitDoctorPopupform.reset()}}
-          {{ui.upcomingVisitDoctorPopupform.open()}}
+          {{ui.visitAgainPopupForm.reset()}}
+          {{ui.visitAgainPopupForm.open()}}
         valueType: interpolatedValue
         interpolationType: code
     level: 0
     fallthroughError: false
     isChanged: true
     nameConfigured: true
-  - id: '16944394301030.15996849910392807'
+  - id: '16944398640310.05784581208196693'
     type: putInStore
     name: save
     params:
@@ -57,4 +57,4 @@ config:
 assigned: true
 selected: true
 configured: true
-index: 6
+index: 7

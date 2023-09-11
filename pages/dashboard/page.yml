@@ -30,3 +30,4 @@ slots:
               - components/card2/card2.yml
               - components/card3/card3.yml
               - components/upcomingVisitDoctorPopupform.yml
+              - components/visitAgainPopupForm.yml

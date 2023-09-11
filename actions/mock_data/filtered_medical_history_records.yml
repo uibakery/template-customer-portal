@@ -1,0 +1,47 @@
+id: '16944426266310.691402886957911'
+name: filtered_medical_history_records
+nameConfigured: true
+steps:
+  - id: '16944426266300.7201453735329872'
+    type: customAsyncCode
+    name: code2
+    params:
+      - type: asyncCode
+        value: |-
+          return {{actions.medical_history_records.data}}
+          .filter(item => {
+            if ({{ui.visitTypeFilter.value}} === 'all') {
+              return true;
+            }
+            return item.visit_type === {{ui.visitTypeFilter.value}};
+          });
+        valueType: interpolatedValue
+        interpolationType: code
+    level: 0
+    fallthroughError: false
+    isChanged: true
+singleStep: false
+mode: manual
+modeConfigured: false
+folder: false
+parentId: '16944233009120.04087075327738643'
+config:
+  shouldConfirm: false
+  confirmMessage: >-
+    Are you sure you'd like to proceed with
+    "{{actions.medical_history_records.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.medical_history_records.name}}" successfully executed
+  successToastDuration: '3000'
+  successToastHideByClick: false
+  showErrorToast: true
+  errorToast: Action "{{actions.medical_history_records.name}}" has failed
+  errorToastDuration: '3000'
+  errorToastHideByClick: false
+  delay: '0'
+  runWhenFirstReferenced: true
+  preserveStateOnPageChange: true
+assigned: false
+selected: true
+configured: true
+index: 4

@@ -48,7 +48,9 @@ steps:
     name: code2
     params:
       - type: asyncCode
-        value: return {{ui.upcomingVisitDoctorPopupform.close()}};
+        value: |-
+          {{ui.upcomingVisitDoctorPopupform.close()}};
+          {{ui.visitAgainPopupForm.close()}};
         valueType: interpolatedValue
         interpolationType: code
     level: 0
@@ -78,4 +80,4 @@ config:
 assigned: true
 selected: true
 configured: false
-index: 8
+index: 10
