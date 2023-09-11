@@ -36,6 +36,8 @@ slots:
     children:
       - text25.yml
       - text26.yml
+      - text34.yml
+      - text35.yml
   - id: '16944357020790.5655412320331403'
     name: footer
     children: []

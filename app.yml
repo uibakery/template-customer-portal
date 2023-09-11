@@ -5,6 +5,12 @@ storeItemList:
     valueType: number
     initialValue: 0
     version: 1
+  - id: '16944394432840.4095901036571723'
+    name: nextAppointmentPrice
+    value: 0
+    valueType: number
+    initialValue: 0
+    version: 1
 metadata:
   favicon: ''
   code: "<style>\n  .apartment nb-card {\n  \tcursor: pointer;\n  }\n  \n  .apartment nb-card:hover {\n  \tbackground-color: #E8EEFB;\n  }\n  \n  .ellipsis h1, .ellipsis p {\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n    display: block!important;\n  }\n  \n  ub-horizontal-menu a[nbButton].active {\n    background-color: rgb(69 112 246 / 37%)!important;\n  }\n  \n  .no-shadow button {\n    filter: none!important;\n  }\n</style>"

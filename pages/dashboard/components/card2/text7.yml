@@ -24,8 +24,8 @@ properties:
     - xl
     - xs
   value: >-
-    Tomorrow {{moment().add(1, 'days').format('h:mm:ss a')}},
-    {{actions.upcoming_visit_doctor.data.specialty}}
+    Tomorrow {{actions.upcoming_visit_doctor.data.date_time.format('h:mm:ss
+    a')}}, {{actions.upcoming_visit_doctor.data.specialty}}
   markdownSupport: true
 actions: {}
 index: 3

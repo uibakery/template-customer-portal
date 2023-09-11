@@ -24,8 +24,8 @@ properties:
     - xl
     - xs
   value: >-
-    {{moment().add(2, 'days').add(4, 'hours').format('MMMM Do YYYY, h:mm:ss
-    a')}}
+    {{actions.upcoming_visit_procedure.data.date_time.format('MMMM Do YYYY,
+    h:mm:ss a')}}
   markdownSupport: true
 actions: {}
 index: 4
