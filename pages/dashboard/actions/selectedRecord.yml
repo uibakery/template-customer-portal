@@ -7,14 +7,22 @@ steps:
     name: code
     params:
       - type: asyncCode
-        value: return {{actions.medical_history_records.data[state.selectedRecord]}}
+        value: >-
+          if(!actions.medical_history_records.data) {
+
+          return [];
+
+          }
+
+          return {{actions.medical_history_records.data}}.find(item => item.id
+          === state.selectedRecord);
         valueType: interpolatedValue
         interpolationType: code
     level: 0
     fallthroughError: false
     isChanged: true
 singleStep: false
-mode: auto
+mode: manual
 modeConfigured: true
 parentPageId: '1'
 folder: false
