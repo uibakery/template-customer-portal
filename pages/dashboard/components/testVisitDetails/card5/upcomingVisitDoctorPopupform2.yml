@@ -1,12 +1,12 @@
-id: '16944325384760.7798389242367969'
+id: '16944365435710.33935890490471365'
 definitionId: popupForm
-parentSlotId: '16944300780680.8029684786490712'
+parentSlotId: '16944365048010.24922726795918382'
 styles:
   xl:
     gridItem:
-      x: 18
+      x: 15
       y: 0
-      w: 6
+      w: 9
       h: 10
   xs:
     gridItem:
@@ -26,7 +26,7 @@ properties:
       ]
     withData: false
   entity: ''
-  name: upcomingVisitDoctorPopupform
+  name: upcomingVisitDoctorPopupform2
   __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
     - xl
     - xs
@@ -39,111 +39,111 @@ properties:
 actions: {}
 index: 1
 slots:
-  - id: '16944325384760.30178296013068096'
+  - id: '16944365435710.44439167778727384'
     name: structure
     children:
-      - id: '16944325385190.5934449413894214'
+      - id: '16944365435710.7545909659411241'
         definitionId: atomicString
         styles:
           xl:
             visible: true
         properties:
-          name: atomicString7
+          name: atomicString2
           prop: visit_type
           primaryKey: false
           __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
             - xl
             - xs
-        parentSlotId: '16944325384760.30178296013068096'
+        parentSlotId: '16944365435710.44439167778727384'
         index: 0
         slots: []
-      - id: '16944325385190.5776985490646351'
+      - id: '16944365435710.9947337265985692'
         definitionId: atomicString
         styles:
           xl:
             visible: true
         properties:
-          name: atomicString10
+          name: atomicString3
           prop: doctor_name
           primaryKey: false
           __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
             - xl
             - xs
-        parentSlotId: '16944325384760.30178296013068096'
+        parentSlotId: '16944365435710.44439167778727384'
         index: 1
         slots: []
-      - id: '16944325385190.4472902373119212'
+      - id: '16944365435710.5562192732073941'
         definitionId: atomicString
         styles:
           xl:
             visible: true
         properties:
-          name: atomicString11
+          name: atomicString4
           prop: specialty
           primaryKey: false
           __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
             - xl
             - xs
-        parentSlotId: '16944325384760.30178296013068096'
+        parentSlotId: '16944365435710.44439167778727384'
         index: 2
         slots: []
-      - id: '16944325385190.8849785346102768'
+      - id: '16944365435710.9158505411701479'
         definitionId: atomicString
         styles:
           xl:
             visible: true
         properties:
-          name: atomicString12
+          name: atomicString5
           prop: diagnosis
           primaryKey: false
           __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
             - xl
             - xs
-        parentSlotId: '16944325384760.30178296013068096'
+        parentSlotId: '16944365435710.44439167778727384'
         index: 3
         slots: []
-      - id: '16944325385190.5445888170034783'
+      - id: '16944365435710.9407465229629397'
         definitionId: atomicString
         styles:
           xl:
             visible: true
         properties:
-          name: atomicString13
+          name: atomicString6
           prop: prescription
           primaryKey: false
           __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
             - xl
             - xs
-        parentSlotId: '16944325384760.30178296013068096'
+        parentSlotId: '16944365435710.44439167778727384'
         index: 4
         slots: []
-      - id: '16944325385190.14079717450048057'
+      - id: '16944365435710.9933727919824182'
         definitionId: atomicString
         styles:
           xl:
             visible: true
         properties:
-          name: atomicString14
+          name: atomicString8
           prop: price
           primaryKey: false
           __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
             - xl
             - xs
-        parentSlotId: '16944325384760.30178296013068096'
+        parentSlotId: '16944365435710.44439167778727384'
         index: 5
         slots: []
-      - id: '16944325385190.4450754963641306'
+      - id: '16944365435710.6910527918966123'
         definitionId: atomicString
         styles:
           xl:
             visible: true
         properties:
-          name: atomicString15
+          name: atomicString9
           prop: date_time
           primaryKey: false
           __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
             - xl
             - xs
-        parentSlotId: '16944325384760.30178296013068096'
+        parentSlotId: '16944365435710.44439167778727384'
         index: 6
         slots: []

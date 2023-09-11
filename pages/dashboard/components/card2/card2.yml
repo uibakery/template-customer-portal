@@ -7,7 +7,7 @@ styles:
       x: 7
       y: 0
       w: 17
-      h: 46
+      h: 48
     status:
       value: warning-light
       dataValue: default
@@ -24,8 +24,9 @@ properties:
     - xl
     - xs
   showHeader: true
+  heightMode: fixed
 actions: {}
-index: 2
+index: 1
 slots:
   - id: '16944300780680.8029684786490712'
     name: header

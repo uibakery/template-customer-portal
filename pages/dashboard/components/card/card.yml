@@ -7,7 +7,7 @@ styles:
       x: 0
       y: 0
       w: 7
-      h: 46
+      h: 40
   xs:
     gridItem:
       x: 0
@@ -20,6 +20,7 @@ properties:
     - xl
     - xs
   showHeader: false
+  heightMode: auto
 actions: {}
 index: 0
 slots:

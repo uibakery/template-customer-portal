@@ -27,6 +27,8 @@ slots:
             bindings: {}
             children:
               - components/card/card.yml
-              - components/medicalHistoryRecordsTable.yml
               - components/card2/card2.yml
+              - components/doctorVisitDetails/doctorVisitDetails.yml
               - components/card3/card3.yml
+              - components/procedureVisitDetails/procedureVisitDetails.yml
+              - components/testVisitDetails/testVisitDetails.yml
