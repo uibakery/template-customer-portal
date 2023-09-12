@@ -23,9 +23,7 @@ properties:
   __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
     - xl
     - xs
-  value: >-
-    {{actions.selectedRecord.data.specialty}}
-    **{{actions.selectedRecord.data.doctor_name}}**
+  value: '{{item.specialty}} **{{item.doctor_name}}**'
   verticalAlignment: middle
   textStyle:
     transform: none

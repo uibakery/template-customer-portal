@@ -20,7 +20,7 @@ properties:
     - xl
     - xs
   value: >-
-    {{Object.entries(actions.selectedRecord.data.results).map(([name, value]) =>
+    {{Object.entries(item.results ?? {}).map(([name, value]) =>
     `${name.replaceAll('_', ' ')}: ${value}`).join('<br>')}}
   textStyle:
     transform: none

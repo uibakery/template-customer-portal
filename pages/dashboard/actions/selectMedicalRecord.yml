@@ -2,7 +2,7 @@ id: '16944353120800.12726644309556723'
 name: selectMedicalRecord
 nameConfigured: true
 steps:
-  - id: '16944353197690.7614326123358321'
+  - id: '16945042884960.7666333457151158'
     type: putInStore
     name: save
     params:
@@ -19,6 +19,7 @@ steps:
     level: 0
     fallthroughError: false
     isChanged: true
+    nameConfigured: true
   - id: '16944356851000.969430194561685'
     type: executeAction
     name: execute
