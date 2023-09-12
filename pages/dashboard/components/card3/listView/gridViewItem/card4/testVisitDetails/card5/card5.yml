@@ -29,7 +29,7 @@ properties:
     - xs
   heightMode: fixed
   showHeader: false
-  __UIBAKERY__SHOW__CONDITION__CODE__: '{{!actions.selectedRecord.data.is_ok}}'
+  __UIBAKERY__SHOW__CONDITION__CODE__: '{{!item.is_ok}}'
 actions: {}
 index: 2
 slots:

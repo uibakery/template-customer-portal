@@ -22,7 +22,7 @@ properties:
   __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
     - xl
     - xs
-  value: '**{{actions.selectedRecord.data.test_name}}**'
+  value: '**{{item.test_name}}**'
   verticalAlignment: middle
   textStyle:
     transform: none

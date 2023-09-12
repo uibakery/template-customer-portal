@@ -14,7 +14,7 @@ styles:
       withData: false
     accent:
       value: default
-      dataValue: '{{actions.selectedRecord.data.is_ok ? ''success'' : ''danger-light''}}'
+      dataValue: '{{item.is_ok ? ''success'' : ''danger-light''}}'
       withData: true
   xs:
     gridItem:
@@ -27,9 +27,7 @@ properties:
   __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
     - xl
     - xs
-  __UIBAKERY__SHOW__CONDITION__CODE__: >-
-    {{actions.selectedRecord.data.visit_type === 'Test' && state.selectedRecord
-    === item.id}}
+  __UIBAKERY__SHOW__CONDITION__CODE__: '{{item.visit_type === ''Test'' && state.selectedRecord === item.id}}'
   heightMode: auto
 actions: {}
 index: 5

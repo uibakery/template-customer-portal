@@ -19,7 +19,7 @@ properties:
   __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
     - xl
     - xs
-  value: '{{actions.selectedRecord.data.specialty}}'
+  value: '{{item.specialty}}'
   textStyle:
     transform: none
     styles: []
