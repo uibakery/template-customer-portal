@@ -190,7 +190,6 @@ steps:
 singleStep: false
 mode: manual
 modeConfigured: false
-folder: false
 parentId: '16944233009120.04087075327738643'
 config:
   shouldConfirm: false
@@ -211,4 +210,4 @@ config:
 assigned: true
 selected: true
 configured: false
-index: 3
+kind: workflow

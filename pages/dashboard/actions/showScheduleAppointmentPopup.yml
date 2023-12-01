@@ -37,7 +37,6 @@ singleStep: true
 mode: manual
 modeConfigured: true
 parentPageId: '1'
-folder: false
 config:
   shouldConfirm: false
   confirmMessage: >-
@@ -57,4 +56,4 @@ config:
 assigned: true
 selected: true
 configured: true
-index: 6
+kind: workflow
