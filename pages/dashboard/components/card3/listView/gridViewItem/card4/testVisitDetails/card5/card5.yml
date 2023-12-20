@@ -7,7 +7,7 @@ styles:
       x: 0
       y: 0
       w: 24
-      h: 16
+      h: 14
     accent:
       value: default
       dataValue: default
@@ -27,7 +27,7 @@ properties:
   __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
     - xl
     - xs
-  heightMode: fixed
+  heightMode: auto
   showHeader: false
   __UIBAKERY__SHOW__CONDITION__CODE__: '{{!item.is_ok}}'
 actions: {}

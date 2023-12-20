@@ -20,6 +20,5 @@ children:
       - id: '16944229300310.8453498176239338'
         name: content
         children:
-          - components/image2.yml
           - components/horizontalMenu.yml
           - components/contextMenuButton.yml

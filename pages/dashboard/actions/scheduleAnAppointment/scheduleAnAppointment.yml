@@ -7,12 +7,7 @@ steps:
     name: code
     params:
       - type: asyncCode
-        value: |-
-          return new Promise(r => {
-            setTimeout(() => {
-              r();
-            }, 2000);
-          })
+        value: ./code.js
         valueType: interpolatedValue
         interpolationType: code
     level: 0
@@ -48,9 +43,7 @@ steps:
     name: code2
     params:
       - type: asyncCode
-        value: |-
-          {{ui.upcomingVisitDoctorPopupform.close()}};
-          {{ui.visitAgainPopupForm.close()}};
+        value: ./code2.js
         valueType: interpolatedValue
         interpolationType: code
     level: 0
@@ -60,7 +53,6 @@ singleStep: true
 mode: manual
 modeConfigured: true
 parentPageId: '1'
-folder: false
 config:
   shouldConfirm: false
   confirmMessage: >-
@@ -80,4 +72,4 @@ config:
 assigned: true
 selected: true
 configured: false
-index: 10
+kind: workflow

@@ -16,9 +16,11 @@ metadata:
   code: "<style>\n  .apartment nb-card {\n  \tcursor: pointer;\n  }\n  \n  .apartment nb-card:hover {\n  \tbackground-color: #E8EEFB;\n  }\n  \n  .ellipsis h1, .ellipsis p {\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n    display: block!important;\n  }\n  \n  ub-horizontal-menu a[nbButton].active {\n    background-color: rgb(69 112 246 / 37%)!important;\n  }\n  \n  .no-shadow button {\n    filter: none!important;\n  }\n</style>"
   title: Custom Portal
   description: ''
+  breakpoints: []
 appSettings:
   properties:
     defaultData: '{}'
   actions: {}
   gridVersion: 2
+  density: compact
 internalType: project
