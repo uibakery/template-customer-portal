@@ -5,9 +5,9 @@ styles:
   xl:
     gridItem:
       x: 0
-      y: 88
+      y: 49
       w: 6
-      h: 10
+      h: 9
     modalSize:
       widthValue: 400
       widthUnit: px

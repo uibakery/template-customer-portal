@@ -9,7 +9,7 @@ styles:
       w: 17
       h: 6
     fontSize:
-      customValue: 13
+      customValue: 12
       customUnit: px
       themeDefaultOverridePropertyKey: baseTextFontSize
   xs:

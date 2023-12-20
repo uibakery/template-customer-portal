@@ -4,16 +4,16 @@ parentSlotId: '16944229300310.8453498176239338'
 styles:
   xl:
     gridItem:
-      x: 1
+      x: 0
       y: 0
-      w: 12
-      h: 10
+      w: 11
+      h: 9
     color:
       value: white
       dataValue: basic
       withData: false
     logo:
-      url: ''
+      url: https://sauibakeryprod.blob.core.windows.net/teamplates-covers/logo.png
       uploadUrl: ''
       name: ''
       active: url
@@ -41,5 +41,5 @@ properties:
       }
     ]
 actions: {}
-index: 1
+index: 0
 slots: []
