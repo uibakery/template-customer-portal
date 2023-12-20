@@ -20,7 +20,7 @@ properties:
     - xl
     - xs
   showHeader: false
-  heightMode: fixed
+  heightMode: auto
 actions: {}
 index: 0
 slots:

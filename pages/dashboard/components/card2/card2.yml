@@ -7,7 +7,7 @@ styles:
       x: 7
       y: 0
       w: 17
-      h: 48
+      h: 43
     status:
       value: warning-light
       dataValue: default

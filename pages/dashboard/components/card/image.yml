@@ -7,7 +7,7 @@ styles:
       x: 0
       y: 0
       w: 6
-      h: 19
+      h: 21
     src:
       url: '{{actions.user_profile.data.ava}}'
       uploadUrl: ''
