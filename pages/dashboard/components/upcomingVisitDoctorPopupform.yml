@@ -92,6 +92,10 @@ slots:
               {{[... new Set(actions.medical_history_records.data.map(item =>
               item.visit_type))]}}
             withData: true
+          allowResetValue:
+            value: false
+            dataValue: 'false'
+            withData: false
         parentSlotId: '16944387432560.641671556419589'
         index: 0
         slots: []
@@ -113,6 +117,10 @@ slots:
               item.specialty).filter(Boolean))]}}
             withData: true
           __UIBAKERY__SHOW__CONDITION__CODE__: '{{ui.upcomingVisitDoctorPopupform.value.visit_type === ''Doctor''}}'
+          allowResetValue:
+            value: false
+            dataValue: 'false'
+            withData: false
         parentSlotId: '16944387432560.641671556419589'
         index: 1
         slots: []
@@ -132,6 +140,10 @@ slots:
               item.procedure_name).filter(Boolean))]}}
             withData: true
           __UIBAKERY__SHOW__CONDITION__CODE__: '{{ui.upcomingVisitDoctorPopupform.value.visit_type === ''Procedure''}}'
+          allowResetValue:
+            value: false
+            dataValue: 'false'
+            withData: false
         parentSlotId: '16944387432560.641671556419589'
         index: 3
         slots: []
@@ -151,6 +163,10 @@ slots:
               item.test_name).filter(Boolean))]}}
             withData: true
           __UIBAKERY__SHOW__CONDITION__CODE__: '{{ui.upcomingVisitDoctorPopupform.value.visit_type === ''Test''}}'
+          allowResetValue:
+            value: false
+            dataValue: 'false'
+            withData: false
         parentSlotId: '16944387432560.641671556419589'
         index: 4
         slots: []

@@ -7,15 +7,7 @@ steps:
     name: code
     params:
       - type: asyncCode
-        value: >-
-          if(!actions.medical_history_records.data) {
-
-          return [];
-
-          }
-
-          return {{actions.medical_history_records.data}}.find(item => item.id
-          === state.selectedRecord);
+        value: ./code.js
         valueType: interpolatedValue
         interpolationType: code
     level: 0
@@ -25,7 +17,6 @@ singleStep: false
 mode: manual
 modeConfigured: true
 parentPageId: '1'
-folder: false
 parentId: null
 config:
   shouldConfirm: false
@@ -44,4 +35,4 @@ config:
 assigned: true
 selected: true
 configured: true
-index: 9
+kind: workflow

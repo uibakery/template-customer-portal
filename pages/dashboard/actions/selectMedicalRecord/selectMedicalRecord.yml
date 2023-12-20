@@ -31,7 +31,7 @@ steps:
         value: false
         valueType: string
       - type: customParams
-        value: return {{data}};
+        value: ./execute-customParams.js
         valueType: string
       - type: successMapper
         value: ''
@@ -49,7 +49,6 @@ singleStep: true
 mode: manual
 modeConfigured: true
 parentPageId: '1'
-folder: false
 config:
   shouldConfirm: false
   confirmMessage: >-
@@ -69,4 +68,4 @@ config:
 assigned: true
 selected: true
 configured: true
-index: 8
+kind: workflow

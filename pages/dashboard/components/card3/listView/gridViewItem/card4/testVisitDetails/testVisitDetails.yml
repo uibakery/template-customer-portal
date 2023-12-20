@@ -5,9 +5,9 @@ styles:
   xl:
     gridItem:
       x: 0
-      y: 52
+      y: 10
       w: 24
-      h: 40
+      h: 58
     status:
       value: default
       dataValue: ''
