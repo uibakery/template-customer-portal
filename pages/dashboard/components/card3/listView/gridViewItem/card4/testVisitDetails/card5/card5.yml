@@ -7,7 +7,7 @@ styles:
       x: 0
       y: 0
       w: 24
-      h: 16
+      h: 13
     accent:
       value: default
       dataValue: default

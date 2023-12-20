@@ -7,7 +7,7 @@ styles:
       x: 17
       y: 0
       w: 7
-      h: 10
+      h: 9
     iconPlacement: left
   xs:
     gridItem:
