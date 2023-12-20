@@ -37,6 +37,14 @@ properties:
   labelWidth: 36
   placeholder: ''
   value: all
+  allowSelectAll:
+    value: false
+    dataValue: 'false'
+    withData: false
+  allowResetValue:
+    value: false
+    dataValue: 'false'
+    withData: false
 actions:
   selectChange:
     - action: '16944426266310.691402886957911'

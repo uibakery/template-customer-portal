@@ -12,7 +12,6 @@ steps:
 singleStep: true
 mode: manual
 modeConfigured: false
-folder: true
 parentId: null
 config:
   shouldConfirm: false
@@ -30,4 +29,4 @@ config:
   preserveStateOnPageChange: true
 assigned: false
 selected: false
-index: 0
+kind: folder

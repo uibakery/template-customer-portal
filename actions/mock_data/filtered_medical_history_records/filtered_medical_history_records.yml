@@ -1,19 +1,13 @@
-id: '16944302741920.4521412273044587'
-name: upcoming_visit_procedure
+id: '16944426266310.691402886957911'
+name: filtered_medical_history_records
 nameConfigured: true
 steps:
-  - id: '16944302741920.3040566420326969'
+  - id: '16944426266300.7201453735329872'
     type: customAsyncCode
-    name: code
+    name: code2
     params:
       - type: asyncCode
-        value: |-
-          return {
-            visit_type: 'Procedure',
-            procedure_name: 'Magnetic Resonance Angiography (MRA)',
-            price: '$600',
-            date_time: moment().add(2, 'days').add(4, 'hours'),
-          };
+        value: ./code2.js
         valueType: interpolatedValue
         interpolationType: code
     level: 0
@@ -22,19 +16,18 @@ steps:
 singleStep: false
 mode: manual
 modeConfigured: false
-folder: false
 parentId: '16944233009120.04087075327738643'
 config:
   shouldConfirm: false
   confirmMessage: >-
     Are you sure you'd like to proceed with
-    "{{actions.upcoming_visit_doctor.name}}"?
+    "{{actions.medical_history_records.name}}"?
   showSuccessToast: false
-  successToast: Action "{{actions.upcoming_visit_doctor.name}}" successfully executed
+  successToast: Action "{{actions.medical_history_records.name}}" successfully executed
   successToastDuration: '3000'
   successToastHideByClick: false
   showErrorToast: true
-  errorToast: Action "{{actions.upcoming_visit_doctor.name}}" has failed
+  errorToast: Action "{{actions.medical_history_records.name}}" has failed
   errorToastDuration: '3000'
   errorToastHideByClick: false
   delay: '0'
@@ -43,4 +36,4 @@ config:
 assigned: false
 selected: true
 configured: true
-index: 2
+kind: workflow
